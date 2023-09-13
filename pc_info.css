@@ -1,0 +1,80 @@
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Tutorial Case
+   
+   Positioning Styles for the pc_info.html file
+   Author: Elijah McCann
+   Date:   9/11/23
+   
+   Filename: pc_info.css
+
+*/
+
+
+/* Main Styles */
+main {
+   position: relative;
+   height: 1400px;
+   width: 100%;
+   overflow: auto;
+}
+
+
+/* Infographic Styles */
+div.infobox {
+   position: absolute;
+}
+
+
+/* First Infographic */
+div#info1 {
+   top: 20px;
+   left: 5%;
+}
+
+/* Second Infographic */
+div#info2 {
+   top: 185px;
+   left: 42%;
+}
+
+/* Third Infographic */
+div#info3 {
+   top: 135px;
+   left: 75%;
+}
+
+/* Fourth Infographic */
+div#info4 {
+   top: 510px;
+   left: 8%;
+}
+
+/* Fifth Infographic */
+div#info5 {
+   top: 800px;
+   left: 3%;
+}
+
+/* Sixth Infographic */
+div#info6 {
+   top: 600px;
+   left: 48%;
+}
+
+
+/* Seventh Infographic */
+div#info7 {
+   top: 1000px;
+   left: 68%;
+}
+
+
+/* Eighth Infographic */
+div#info8 {
+   top: 1100px;
+   left: 12%;
+}
+
+
